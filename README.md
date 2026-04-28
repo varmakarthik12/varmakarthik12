@@ -26,7 +26,6 @@ type Engineer struct {
     Name      string
     Role      string
     Company   string
-    Location  string
     Stack     map[string][]string
     Interests []string
 }
@@ -36,7 +35,6 @@ func main() {
         Name:     "Karthik Sundari",
         Role:     "Sr. Software Development Engineer",
         Company:  "F5",
-        Location: "India 🇮🇳",
         Stack: map[string][]string{
             "backend":  {"Go", "Node", "gRPC", "REST", "Pub/Sub"},
             "frontend": {"React", "Vue", "TypeScript", "JavaScript"},
